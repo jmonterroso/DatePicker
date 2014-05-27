@@ -358,7 +358,7 @@
 
 
             if (date < yesterday && !options.pastDatesSelectable) {
-              console.log(date,'date')
+
               data.weeks[indic].days[indic2].classname.push('datepickerDisabled');
             }
 
